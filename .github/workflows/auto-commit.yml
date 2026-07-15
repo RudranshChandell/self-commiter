@@ -21,8 +21,9 @@ jobs:
 
     - name: Commit and Push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "Rudransh Chandel"
+        # Use your verified GitHub email address here instead of the bot email
+        git config --global user.email "rudranshchandel123@gmail.com"
         git add daily_log.txt
         git commit -m "chore: automated daily contribution update"
         git push origin main
